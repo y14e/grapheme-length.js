@@ -1,4 +1,4 @@
-// grapheme-length [20240922b]
-String.prototype.graphemeLength = function () {
-  return [...new Intl.Segmenter().segment(this)].length;
+// grapheme-length [20241224]
+export function getGraphemeLength(a) {
+  return [...new Intl.Segmenter().segment(a)].length;
 };
