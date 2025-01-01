@@ -1,3 +1,1 @@
-export function getGraphemeLength(a) {
-  return [...new Intl.Segmenter().segment(a)].length;
-}
+function getGraphemeLength(e){return[...(new Intl.Segmenter).segment(e)].length}export{getGraphemeLength};
