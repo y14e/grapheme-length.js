@@ -1,4 +1,4 @@
-function getGraphemeLength(string){
+function getGraphemeLength(string) {
   return [...new Intl.Segmenter().segment(string)].length;
 }
 
